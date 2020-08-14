@@ -1,0 +1,17 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "gamersgrove.net website",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --live --open src/index.js",
+    "build": "postcss css/tailwind.css -o public/static/tailwind.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.6.2"
+  }
+}
