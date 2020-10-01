@@ -1,5 +1,11 @@
 @tailwind base;
 
+@media (min-width: 1024px) {
+    .top-navbar {
+        display: inline-flex !important;
+    }
+}
+
 @tailwind components;
 
 @tailwind utilities;
